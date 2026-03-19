@@ -40,3 +40,7 @@ let c= 40;
 let u = "5";
 
 console.log(y === u);
+
+let add = null;
+add=800;
+console.log (add)
