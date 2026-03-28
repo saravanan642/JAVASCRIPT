@@ -14,5 +14,5 @@ arr.pop(0)
 console.log(arr);
 
 
-arr.splice(10)
+arr.splice(1)
 console.log(arr);
