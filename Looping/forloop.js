@@ -41,11 +41,55 @@
 // }
 
 
-let a = 2;
-let b=3;
-let fact= a+b; 
+// let a = 2;
+// let b=3;
+// let fact= a+b; 
 
-for (i=1; i<=10; i++){
-fact *=i
-console.log(fact);
+// for (i=1; i<=10; i++){
+// fact *=i
+// console.log(fact);
+// }
+
+//  let start =""
+// for (i=0; i<5; i++){
+//    start = start + "*"
+// }console.log (start);
+
+
+// let num = "";
+// for ( i =0 ; i<=5; i++){
+//     start = num + "*"
+//     console.log(start);
+// }
+
+
+// let  method = "";
+// for ( i =0 ; i<=5; i++){
+//   method = method + "*"
+//  console.log(method);
+// }
+
+// let method = "******";
+//   let ans = method-met
+// for (i=5; i>=0; i--){
+//     met = method +"*"
+//     console.log(ans);
+// }
+ 
+
+// for (let i = 6; i >= 1; i--) {
+//     console.log("*".repeat(i));
+// }
+
+
+let method = "******";
+
+for (let i = method.length; i >= 1; i--) {
+    let ans = "";
+
+    for (let j = 0; j < i; j++) {
+        ans = ans + "*";
+    }
+
+  console.log(ans);
 }
