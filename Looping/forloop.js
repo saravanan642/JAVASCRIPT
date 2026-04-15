@@ -82,14 +82,20 @@
 // }
 
 
-let method = "******";
+// let method = "******";
 
-for (let i = method.length; i >= 1; i--) {
-    let ans = "";
+// for (let i = method.length; i >= 1; i--) {
+//     let ans = "";
 
-    for (let j = 0; j < i; j++) {
-        ans = ans + "*";
-    }
+//     for (let j = 0; j < i; j++) {
+//         ans = ans + "*";
+//     }
 
-  console.log(ans);
+//   console.log(ans);
+// }
+
+
+for( i=1; i<=5; i++){
+  
+  console.log("hello");
 }
