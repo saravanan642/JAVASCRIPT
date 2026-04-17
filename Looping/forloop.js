@@ -95,7 +95,18 @@
 // }
 
 
-for( i=1; i<=5; i++){
+// for( i=1; i<=5; i++){
   
-  console.log("hello");
+//   console.log("hello");
+// 
+
+
+// for (i=1 ;i<=10; i++){
+// console.log("3 x " + i + " = " + (3 * i));
+
+// }
+
+
+for(i=1;i<10; i++){
+  console.log(i + " x 4  "+ " = " + (4 * i));
 }
